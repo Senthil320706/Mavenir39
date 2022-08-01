@@ -1,0 +1,10 @@
+Below are the observation for Voting App
+
+* after deleting voting pod, new  pod has been created, voting and result app were working after deleting.
+* after deleting worker pod, new  pod has been created, voting and result app were working after deleting.
+* after deleting db pod, not able to get the results, voting and result app not working 
+
+
+Below commands were used
+kubectl get pod
+kubectl delete po <pod name>
